@@ -4,7 +4,7 @@
   "version": [0, 1, 0],
   "entry_points": {
     "net.kb1rd.openroom": {
-      "to": "http://localhost:8081/#/app?return_via={{return}}",
+      "to": "https://roomedit.kb1rd.net/#/app?return_via={{return}}",
       "types": []
     }
   },
