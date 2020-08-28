@@ -1,0 +1,12 @@
+{
+  "manifest_version": 0,
+  "title": { "en": "Matrix Room Editor" },
+  "version": [0, 1, 0],
+  "entry_points": {
+    "net.kb1rd.openroom": {
+      "to": "http://localhost:8081/#/app?return_via={{return}}",
+      "types": []
+    }
+  },
+  "request_permissions": ["a.openroom.state.set"]
+}

@@ -1,18 +1,17 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <h1>Matrix Room Editor</h1>
+    <p>A Matrix App that edits room state and sends custom events</p>
+    <p>Add to Matrix Apps: <code>{{ url }}</code></p>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld
+  computed: {
+    url () {
+      return `${window.location.origin}/manifest.mxapp.json`
+    }
   }
 }
 </script>
