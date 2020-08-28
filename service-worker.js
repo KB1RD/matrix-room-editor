@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.b5b9eabd2887b1159d7e9e387632fe4a.js"
+  "/precache-manifest.76a9a3fc96b685c7aa478b824cd80db6.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "matrix-room-edit"});
