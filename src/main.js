@@ -3,11 +3,13 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 
-import { BootstrapVue } from 'bootstrap-vue'
+import { BootstrapVue, BIcon, BIconFileEarmark } from 'bootstrap-vue'
 
 import { state } from './worker-link'
 
 Vue.use(BootstrapVue)
+Vue.component('BIcon', BIcon)
+Vue.component('BIconFileEarmark', BIconFileEarmark)
 
 Vue.config.productionTip = false
 

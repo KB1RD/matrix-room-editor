@@ -1,10 +1,11 @@
 <template>
   <b-input-group>
     <b-form-input
+      v-model="internal"
       class="input-text-unless-focus"
       :size="size"
       :placeholder="placeholder"
-      v-model="internal"
+      :disabled="disabled"
       @blur="(e) => e.target.focus()"
       @keyup="onTitleInputKeyEvent"
     />
@@ -27,7 +28,8 @@ export default {
   props: {
     value: String,
     placeholder: String,
-    size: String
+    size: String,
+    disabled: Boolean
   },
   data () {
     return {

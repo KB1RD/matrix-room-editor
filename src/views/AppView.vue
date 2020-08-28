@@ -1,6 +1,6 @@
 <template>
   <div style="max-width: 1000px; margin: auto;">
-    <h1>Editor</h1>
+    <h1>Matrix Room Editor</h1>
     <b-card-text v-if="state.error">
       Failed to start core. Make sure your browser can support either service
       or shared workers and ensure that you have <code>iframe</code>s enabled.
